@@ -1,31 +1,29 @@
 a {
-	color: rgb(30%,0%,0%);
+	color: #ad007b;
+	text-align: right!important;
 }
 
 hr {}
 
 body {
 	font-family: helvetica;
-	font-size: large;
-	margin: 10%;
-	background-color: #EEEEEE;
-	text-align: center;
+	font-size: 150%!important;
+	margin-left: 30%;
+	margin-top: 5%;
+	background-color: #008e82;
+	text-align: left;
 }
 
 h1 {
-	color: rgb(35%, 35%, 35%);
+	color: #f9e500;
 	font-family: helvetica;
-	font-size: ;
-	text-align: center;
+	font-size: 200%!important;
 }
 
 h2 {
-	color: rgb(40%, 40%, 40%);
+	color: #c7f900;
 	font-family: helvetica;
 	font-size: x-large;
-	padding: 5px 0 5px 5px;
-	border-bottom: single #CCCCCC;
-	text-align: center;
 }
 
 h3 {
@@ -34,7 +32,6 @@ h3 {
 	font-size: x-large;
 	padding: 0px 0 0px 0px;
 	border: #CCCCCC;
-	text-align: center;
 }
 
 table {margin-left: 1%;}
@@ -48,12 +45,11 @@ td{padding: 5px; }
 .italic {font-style: italic;}
 
 .subtitle1 {
-	text-align: center;
+	color: #00bbff;
 	font-size: 100%;
 }
 
 .subtitle2 {
-	text-align: center;
 	font-size: 100%;
 }
 
