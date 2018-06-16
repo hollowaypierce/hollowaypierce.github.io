@@ -1,5 +1,5 @@
 a {
-	color: #ad007b;
+	color: #dd807b;
 	font-size: 90%!important;
 }
 
@@ -8,20 +8,23 @@ hr {}
 body {
 	font-family: helvetica;
 	font-size: 180%!important;
+	text-align: left;
 	margin-left: 30%;
 	margin-top: 5%;
-	background-color: #008e82;
-	text-align: left;
+	background-color: #007e72;
+	background-image: url("./images/barre-chien-chat.gif");
+	background-position: 90% 75%; /*Positioning*/
+	background-repeat: no-repeat; /*Prevent showing multiple background images*/
 }
 
 h1 {
-	color: #f9e500;
+	color: #ffe500;
 	font-family: helvetica;
 	font-size: 200%!important;
 }
 
 h2 {
-	color: #c7f900;
+	color: #c7ff00;
 	font-family: helvetica;
 	font-size: 120%!important;
 }
@@ -45,7 +48,7 @@ td{padding: 5px; }
 .italic {font-style: italic;}
 
 .subtitle1 {
-	color: #00bbff;
+	color: #ffbbff;
 	font-size: 100%;
 }
 
