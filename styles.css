@@ -3,8 +3,6 @@ a {
 	font-size: 90%!important;
 }
 
-hr {}
-
 body {
 	font-family: helvetica;
 	font-size: 180%!important;
@@ -37,22 +35,8 @@ h3 {
 	border: #CCCCCC;
 }
 
-table {margin-left: 1%;}
-
-th {padding: 0 20px 0 0; font-size: 110%; text-align: left; }
-
-td{padding: 5px; }
-
-.bold {font-weight: bold;}
-
-.italic {font-style: italic;}
-
 .subtitle1 {
 	color: #ffbbff;
-	font-size: 100%;
-}
-
-.subtitle2 {
 	font-size: 100%;
 }
 
@@ -61,8 +45,8 @@ td{padding: 5px; }
 	width: 30%;
 	background-color: rgb(90%, 90%, 90%);
 	padding: 0px;
-	margin: 0 0 0px 0px;
-	border-left: 10px solid #EEE;
+	margin: -250 50 0px 0px;
+	border-left: 10px solid rgb(90%, 90%, 90%);
 }
 
 .popout h2 {
@@ -76,6 +60,20 @@ ul {
 	list-style-type: square;
 	color: rgb(20%, 20%, 20%);
 	list-style-position: inside;
+}
+
+table {
+	margin-left: 1%;
+}
+
+th {
+	padding: 0 20px 0 0;
+	font-size: 110%;
+	text-align: left;
+}
+
+td {
+	padding: 5px;
 }
 
 @media only screen and (min-width: 800px) {
