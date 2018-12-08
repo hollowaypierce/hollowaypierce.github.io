@@ -1,6 +1,6 @@
 a {
 	color: #dd807b;
-	font-size: 90%!important;
+	/* font-size: 90%!important; */
 }
 
 body {
@@ -10,9 +10,9 @@ body {
 	margin-left: 30%;
 	margin-top: 5%;
 	background-color: #007e72;
-	background-image: url("./images/barre-chien-chat.gif");
+	/* background-image: url("./images/barre-chien-chat.gif");
 	background-position: 90% 75%; /*Positioning*/
-	background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	background-repeat: no-repeat; /*Prevent showing multiple background images*/ */
 }
 
 h1 {
@@ -33,6 +33,15 @@ h3 {
 	font-size: x-large;
 	padding: 0px 0 0px 0px;
 	border: #CCCCCC;
+}
+
+p {
+	color: #ffaabb;
+	font-size: 100%;
+}
+
+.center {
+	text-align: center;
 }
 
 .subtitle1 {
