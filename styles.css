@@ -44,6 +44,11 @@ p {
 	text-align: center;
 }
 
+.signature {
+	color: #ffbbff;
+	font-size: 80%;
+}
+
 .subtitle1 {
 	color: #ffbbff;
 	font-size: 100%;
