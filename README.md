@@ -1,4 +1,4 @@
 # hollowaypierce.github.io
-github pages
+github page
 
 [go to site](https://hollowaypierce.github.io)
