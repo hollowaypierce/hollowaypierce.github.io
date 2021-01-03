@@ -1,0 +1,53 @@
+    
+.carousel-caption {
+    background-color: rgba(114, 114, 114, 0.445);
+    position: static;
+    left: auto;
+    right: auto;
+    }
+.carousel { 
+    margin: auto ;
+    width:750px; 
+    }
+
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 50%, 50%;
+  border-radius: 50%;
+  border: 0px solid black;
+  background-image: none;
+  background-color: black ;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+#grad1 {
+  background-image: linear-gradient(180deg, rgb(75, 156, 211), rgb(255, 255, 255));
+}
+.social-icon {
+  height: 3.6rem;
+
+}
+.skill-icon {
+  height: 4rem;
+}
+.social-link {
+  color:black;
+  font-size:1.2 rem;
+  font-weight: 500;
+  text-decoration: none;
+  
+}
