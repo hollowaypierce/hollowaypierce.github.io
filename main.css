@@ -5,44 +5,50 @@ body{
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
-.carousel-caption {
-    background-color: rgba(114, 114, 114, 0.445);
-    position: static;
-    left: auto;
-    right: auto;
-    }
-.carousel { 
-    margin: auto ;
-    width:80%; 
-    }
 
 #video1 {
     width: 100%;
   }
 
-.section-header {
-  font-weight: 300;
-  letter-spacing: .2rem;
-  text-align: center;
-}
-
 .navbar{
-  background: rgb(196, 196, 196);
+  background: rgb(196, 210, 214);
+  border-bottom: 0.3rem  black;
+  
 }
 .nav-item {
   text-decoration: none;
   color: black ;
   padding: 0 1.2rem;
-  
 }
 .nav-link {
   text-decoration: none;
   color: black;
-  font-size: 1.7rem; 
+  font-size: 1.4rem; 
 }
+.navbar-toggler{
+  border-color: black;
+  border-width: 0.2rem;
+  margin-left: 2rem;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar a:hover {
+  border-bottom: 0.1rem solid black;
+}
+.carousel-caption {
+  background-color: rgba(114, 114, 114, 0.445);
+  position: static;
+  left: auto;
+  right: auto;
+  }
+.carousel { 
+  margin: auto ;
+  width:80%; 
+  }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -68,6 +74,7 @@ p {
   font-size: 3rem;
   color: rgb(255, 255, 255);
 }
+
 #grad1 {
   background-image: linear-gradient(180deg, rgb(75, 156, 211), rgb(255, 255, 255));
 }
@@ -78,6 +85,8 @@ p {
 }
 .skill-icon {
   height: 5.6rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .social-link {
   color:black;
@@ -86,11 +95,29 @@ p {
   text-decoration: none;
   padding: 2rem 0;
 }
+
+.section-header {
+  font-weight: 300;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+.section-label{
+  font-weight: 300;
+  text-align: center;
+}
+.section-maps {
+  background:  #c1e0e2;
+  padding: 3rem 0 4rem 0;
+}
 .section-skills{
   background: #c1e0e2;
   padding: 3rem 0 4rem 0;
 }
+.skill-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
 .main-footer {
-  background: #E2C3C1;
+  background: #d5d7dac2;
   padding: 3rem 0 4rem 0;
 }
