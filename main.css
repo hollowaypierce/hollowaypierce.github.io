@@ -1,4 +1,13 @@
     
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
 .carousel-caption {
     background-color: rgba(114, 114, 114, 0.445);
     position: static;
@@ -7,13 +16,38 @@
     }
 .carousel { 
     margin: auto ;
-    width:750px; 
+    width:80%; 
     }
 
-    .carousel-control-prev-icon,
+#video1 {
+    width: 100%;
+  }
+
+.section-header {
+  font-weight: 300;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+.navbar{
+  background: rgb(196, 196, 196);
+}
+.nav-item {
+  text-decoration: none;
+  color: black ;
+  padding: 0 1.2rem;
+  
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem; 
+}
+
+.carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   outline: black;
   background-size: 50%, 50%;
   border-radius: 50%;
@@ -25,29 +59,38 @@
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 30px;
+  font-size: 3rem;
   color: rgb(255, 255, 255);
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 30px;
+  font-size: 3rem;
   color: rgb(255, 255, 255);
 }
 #grad1 {
   background-image: linear-gradient(180deg, rgb(75, 156, 211), rgb(255, 255, 255));
 }
 .social-icon {
-  height: 3.6rem;
+  height: 4.6rem;
+  margin: 0.8rem 0;
 
 }
 .skill-icon {
-  height: 4rem;
+  height: 5.6rem;
 }
 .social-link {
   color:black;
   font-size:1.2 rem;
   font-weight: 500;
   text-decoration: none;
-  
+  padding: 2rem 0;
+}
+.section-skills{
+  background: #c1e0e2;
+  padding: 3rem 0 4rem 0;
+}
+.main-footer {
+  background: #E2C3C1;
+  padding: 3rem 0 4rem 0;
 }
