@@ -8,14 +8,17 @@ p {
   font-size: 1.1rem;
 }
 
+.lead{
+  font-weight: 300;
+}
 
 #video1 {
     width: 100%;
   }
 
 .navbar{
-  background: rgb(196, 210, 214);
-  border-bottom: 0.3rem  black;
+  background:#A2D5F0;
+  border-bottom: 0.2rem  black;
   
 }
 .nav-item {
@@ -39,6 +42,19 @@ p {
 .navbar a:hover {
   border-bottom: 0.1rem solid black;
 }
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0,0,0,0.45)),url("../images/Tuolme.jpg");background-size:cover;background-position:50%;
+  background-size: cover;
+}
+
+
+.btn-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  color:black;
+  font-weight: 600;
+}
 .carousel-caption {
   background-color: rgba(114, 114, 114, 0.445);
   position: static;
@@ -47,16 +63,16 @@ p {
   }
 .carousel { 
   margin: auto ;
-  width:80%; 
+  width:62%; 
   }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   outline: black;
-  background-size: 50%, 50%;
-  border-radius: 50%;
+  background-size: 40%, 40%;
+  border-radius: 15%;
   border: 0px solid black;
   background-image: none;
   background-color: black ;
@@ -65,19 +81,19 @@ p {
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
-#grad1 {
-  background-image: linear-gradient(180deg, rgb(75, 156, 211), rgb(255, 255, 255));
-}
+
 .social-icon {
   height: 4.6rem;
   margin: 0.8rem 0;
@@ -105,13 +121,23 @@ p {
   font-weight: 300;
   text-align: center;
 }
+.section-projects {
+  background:  #d5d7dac2;
+  padding: 2rem 0 4rem 0;
+}
 .section-maps {
   background:  #c1e0e2;
-  padding: 3rem 0 4rem 0;
+  padding: 2rem 0 4rem 0;
 }
+
+.section-articles{
+  background:#d5d7dac2;
+  padding: 2rem 0 4rem 0;
+}
+
 .section-skills{
-  background: #c1e0e2;
-  padding: 3rem 0 4rem 0;
+  background:  #c1e0e2;
+  padding: 2rem 0 4rem 0;
 }
 .skill-title {
   font-weight: 700;
@@ -119,5 +145,5 @@ p {
 }
 .main-footer {
   background: #d5d7dac2;
-  padding: 3rem 0 4rem 0;
+  padding: 2rem 0 4rem 0;
 }
